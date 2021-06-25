@@ -60,7 +60,7 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
+*.http
 # Flask stuff:
 instance/
 .webassets-cache
@@ -148,3 +148,5 @@ dmypy.json
 # папки со статикой и медиа
 media/
 
+# фейковая почта
+sent_emails/
